@@ -2,7 +2,11 @@ type User {
     id: Int
     username: String
     email: String
+    firstname: String
+    lastname: String
 }
-type Query {
-    users: [User]
+
+type AuthPayload {
+    token: String!
+    user: User!
 }

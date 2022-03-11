@@ -2,8 +2,3 @@ type Category {
 	id: Int
 	name: String
 }
-
-type Query {
-	categories: [Category]
-	getCategory(id: Int!): [Category]
-}
